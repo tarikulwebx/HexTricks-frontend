@@ -196,7 +196,7 @@ export default function Navbar() {
                         variant="h5"
                         noWrap
                         component={Link}
-                        to="/"
+                        to="/HexTricks-frontend"
                         sx={{
                         mr: 3,
                         display: { xs: 'none', md: 'flex' },
@@ -262,7 +262,7 @@ export default function Navbar() {
                         variant="h5"
                         noWrap
                         component={Link}
-                        to="/"
+                        to="/HexTricks-frontend"
                         sx={{
                         mr: 0,
                         display: { xs: 'flex', md: 'none' },
