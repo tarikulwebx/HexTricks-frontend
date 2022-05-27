@@ -1,3 +1,3 @@
-# HexTricks-frontend
+# Live Preview
 
-[Preview](https://tarikulwebx.github.io/HexTricks-frontend/)
+[[Preview](https://tarikulwebx.github.io/HexTricks-frontend/)](https://tarikulwebx.github.io/HexTricks-frontend/)
