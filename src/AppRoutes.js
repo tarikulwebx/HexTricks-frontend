@@ -19,18 +19,18 @@ export default function AppRoutes() {
   return (
     <>
       <Routes>
-        <Route path="/" exact element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/articles" element={<Posts />} />
-        <Route path="/category" element={<Category />} />
-        <Route path="/tag" element={<Tag />} />
-        <Route path="/author" element={<Author />} />
-        <Route path="/page" element={<Page />} />
-        <Route path="/articles/single" element={<SinglePost />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/profile" element={<Profile />} >
+        <Route path="/HexTricks-frontend" exact element={<Home />} />
+        <Route path="/HexTricks-frontend/contact" element={<Contact />} />
+        <Route path="/HexTricks-frontend/about" element={<About />} />
+        <Route path="/HexTricks-frontend/articles" element={<Posts />} />
+        <Route path="/HexTricks-frontend/category" element={<Category />} />
+        <Route path="/HexTricks-frontend/tag" element={<Tag />} />
+        <Route path="/HexTricks-frontend/author" element={<Author />} />
+        <Route path="/HexTricks-frontend/page" element={<Page />} />
+        <Route path="/HexTricks-frontend/articles/single" element={<SinglePost />} />
+        <Route path="/HexTricks-frontend/login" element={<Login />} />
+        <Route path="/HexTricks-frontend/register" element={<Register />} />
+        <Route path="/HexTricks-frontend/profile" element={<Profile />} >
           <Route path='edit' element={<ProfileEdit />}></Route>
           <Route path='history' element={<History />}></Route>
         </Route>
