@@ -19,7 +19,7 @@ const post = {
     thumbnail: ImgPostThumb1,
     created_at: 'May 20, 2021',
     updated_at: 'May 23, 2022',
-    url: '/articles/single',
+    url: '/HexTricks-frontend/articles/single',
     views: '1234',
     totalComments: '12',
     author: {
@@ -30,15 +30,15 @@ const post = {
     categories: [
         {
             name: 'html',
-            slug: '/category'
+            slug: '/HexTricks-frontend/category'
         },
         {
             name: 'CSS',
-            slug: '/category'
+            slug: '/HexTricks-frontend/category'
         },
         {
             name: 'React',
-            slug: '/category'
+            slug: '/HexTricks-frontend/category'
         },
         
     ],
