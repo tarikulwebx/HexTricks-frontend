@@ -31,8 +31,8 @@ export default function AppRoutes() {
         <Route path="/HexTricks-frontend/login" element={<Login />} />
         <Route path="/HexTricks-frontend/register" element={<Register />} />
         <Route path="/HexTricks-frontend/profile" element={<Profile />} >
-          <Route path='/edit' element={<ProfileEdit />}></Route>
-          <Route path='/history' element={<History />}></Route>
+          <Route path='edit' element={<ProfileEdit />}></Route>
+          <Route path='history' element={<History />}></Route>
         </Route>
     </Routes>
     </>
