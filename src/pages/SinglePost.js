@@ -25,7 +25,7 @@ const post = {
     author: {
         name: 'Travis Howard',
         image: ImgAvatar,
-        slug: '#'
+        slug: '/HexTricks-frontend/author'
     },
     categories: [
         {
@@ -98,23 +98,23 @@ const comments = [
 const tags = [
     {
         name: 'HTML',
-        slug: '/tag',
+        slug: '/HexTricks-frontend/tag',
     },
     {
         name: 'CSS',
-        slug: '/tag',
+        slug: '/HexTricks-frontend/tag',
     },
     {
         name: 'Web Design',
-        slug: '/tag',
+        slug: '/HexTricks-frontend/tag',
     },
     {
         name: 'Front-end',
-        slug: '/tag',
+        slug: '/HexTricks-frontend/tag',
     },
     {
         name: 'Material UI',
-        slug: '/tag',
+        slug: '/HexTricks-frontend/tag',
     },
     
 ]
