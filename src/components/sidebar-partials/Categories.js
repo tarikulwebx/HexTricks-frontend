@@ -5,32 +5,32 @@ import { Link } from 'react-router-dom'
 const categories = [
     {
         name: 'HTML',
-        slug: '/category',
+        slug: '/HexTricks-frontend/category',
         posts: '123'
     },
     {
         name: 'CSS',
-        slug: '/category',
+        slug: '/HexTricks-frontend/category',
         posts: '123'
     },
     {
         name: 'Javascript',
-        slug: '/category',
+        slug: '/HexTricks-frontend/category',
         posts: '123'
     },
     {
         name: 'PHP',
-        slug: '/category',
+        slug: '/HexTricks-frontend/category',
         posts: '123'
     },
     {
         name: 'Laravel',
-        slug: '/category',
+        slug: '/HexTricks-frontend/category',
         posts: '123'
     },
     {
         name: 'React',
-        slug: '/category',
+        slug: '/HexTricks-frontend/category',
         posts: '123'
     },
     

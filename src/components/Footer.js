@@ -29,15 +29,15 @@ const col2Menu = [
         menuItems: [
             {
                 name: 'About Us',
-                slug: '/about',
+                slug: '/HexTricks-frontend/about',
             },
             {
                 name: 'Privacy Policy',
-                slug: '#',
+                slug: '/HexTricks-frontend/page',
             },
             {
                 name: 'Terms & Conditions',
-                slug: '#',
+                slug: '/HexTricks-frontend/page',
             },
             
         ]
@@ -51,15 +51,15 @@ const col3Menu = [
         menuItems: [
             {
                 name: 'Login',
-                slug: '#',
+                slug: '/HexTricks-frontend/login',
             },
             {
                 name: 'Application',
-                slug: '#',
+                slug: '/HexTricks-frontend/page',
             },
             {
                 name: 'Members',
-                slug: '#',
+                slug: '/HexTricks-frontend/page',
             },
             
         ]
@@ -73,15 +73,15 @@ const col4Menu = [
         menuItems: [
             {
                 name: 'FAQ',
-                slug: '#',
+                slug: '/HexTricks-frontend/page',
             },
             {
                 name: 'Newsletter',
-                slug: '#',
+                slug: '/HexTricks-frontend/page',
             },
             {
                 name: 'Contact Us',
-                slug: '#',
+                slug: '/HexTricks-frontend/contact',
             },
             
         ]
