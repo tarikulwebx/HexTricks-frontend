@@ -12,20 +12,20 @@ const article = {
     thumbnail: ImgPostThumb1,
     created_at: 'May 20, 2021',
     updated_at: 'May 23, 2022',
-    url: '/articles/single',
+    url: '/HexTricks-frontend/articles/single',
     author: {
         name: 'Travis Howard',
         image: ImgAvatar,
-        slug: '/author'
+        slug: '/HexTricks-frontend/author'
     },
     categories: [
         {
             name: 'html',
-            slug: '/category'
+            slug: '/HexTricks-frontend/category'
         },
         {
             name: 'CSS',
-            slug: '/category'
+            slug: '/HexTricks-frontend/category'
         },
         
     ]
