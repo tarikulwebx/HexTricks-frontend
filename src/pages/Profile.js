@@ -153,7 +153,7 @@ export default class Profile extends Component {
                                         {
                                             socialLinks.map((social)=>(
                                                 <Tooltip title={social.title} arrow placement='top'>
-                                                    <IconButton aria-label={social.title} size='small' component={Link} to={social.url} target='_blank' sx={{ backgroundColor: 'rgba(255, 255, 255, 0.975)', color: '#333', padding: '0.575rem', boxShadow: '2', '&:hover': {backgroundColor: '#fff', boxShadow: '5'}}}>
+                                                    <IconButton aria-label={social.title} size='small' component='a' href={social.url} target='_blank' sx={{ backgroundColor: 'rgba(255, 255, 255, 0.975)', color: '#333', padding: '0.575rem', boxShadow: '2', '&:hover': {backgroundColor: '#fff', boxShadow: '5'}}}>
                                                         {social.icon}
                                                     </IconButton>
                                                 </Tooltip>
