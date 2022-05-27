@@ -24,22 +24,22 @@ import PersonAddIcon from '@mui/icons-material/PersonAdd';
 const menuItems = [
     {
         name: 'Home',
-        slug: '/',
+        slug: '/HexTricks-frontend',
         icon: <HomeIcon sx={{ marginRight: '0.4rem', width: '1.25rem', height: '1.25rem' }} />
     },
     {
         name: 'Articles',
-        slug: '/articles',
+        slug: '/HexTricks-frontend/articles',
         icon: <ArticleIcon sx={{ marginRight: '0.4rem', width: '1.25rem', height: '1.25rem' }} />
     },
     {
         name: 'Contact',
-        slug: '/contact',
+        slug: '/HexTricks-frontend/contact',
         icon: <ContactPageIcon sx={{ marginRight: '0.4rem', width: '1.25rem', height: '1.25rem' }} />
     },
     {
         name: 'About',
-        slug: '/about',
+        slug: '/HexTricks-frontend/about',
         icon: <InfoIcon sx={{ marginRight: '0.4rem', width: '1.25rem', height: '1.25rem' }} />
     },
     
@@ -331,19 +331,19 @@ export default function Navbar() {
                             onClose={handleCloseUserMenu}
                         >
                             <MenuItem onClick={handleCloseUserMenu} >
-                                <Typography component={Link} to='/profile' textAlign="center" sx={{ display: 'flex', alignItems: 'center', color: '#444' }}>
+                                <Typography component={Link} to='/HexTricks-frontend/profile' textAlign="center" sx={{ display: 'flex', alignItems: 'center', color: '#444' }}>
                                 <AccountCircleIcon sx={{ marginRight: '0.5rem', width: '1.25rem', height: '1.25rem' }} />
                                     Profile
                                 </Typography>
                             </MenuItem>
                             <MenuItem onClick={handleCloseUserMenu} >
-                                <Typography component={Link} to='/login' textAlign="center" sx={{ display: 'flex', alignItems: 'center', color: '#444' }}>
+                                <Typography component={Link} to='/HexTricks-frontend/login' textAlign="center" sx={{ display: 'flex', alignItems: 'center', color: '#444' }}>
                                 <LoginIcon sx={{ marginRight: '0.5rem', width: '1.25rem', height: '1.25rem' }} />
                                     Login
                                 </Typography>
                             </MenuItem>
                             <MenuItem onClick={handleCloseUserMenu} >
-                                <Typography component={Link} to='/register' textAlign="center" sx={{ display: 'flex', alignItems: 'center', color: '#444' }}>
+                                <Typography component={Link} to='/HexTricks-frontend/register' textAlign="center" sx={{ display: 'flex', alignItems: 'center', color: '#444' }}>
                                 <PersonAddIcon sx={{ marginRight: '0.5rem', width: '1.25rem', height: '1.25rem' }} />
                                     Register
                                 </Typography>

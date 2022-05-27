@@ -19,7 +19,7 @@ export default function AppRoutes() {
   return (
     <>
       <Routes>
-        <Route path="/HexTricks-frontend" exact element={<Home />} />
+        <Route path="/HexTricks-frontend" element={<Home />} />
         <Route path="/HexTricks-frontend/contact" element={<Contact />} />
         <Route path="/HexTricks-frontend/about" element={<About />} />
         <Route path="/HexTricks-frontend/articles" element={<Posts />} />
