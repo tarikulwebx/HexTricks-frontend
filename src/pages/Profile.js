@@ -23,49 +23,49 @@ const PageHead = styled('div')(({ theme }) => ({
 const socialLinks = [
     {
         title: 'Facebook',
-        url: '#',
+        url: 'https://facebook.com',
         icon: <FaFacebookF />,
     },
     {
         title: 'Twitter',
-        url: '#',
+        url: 'https://twitter.com',
         icon: <FaTwitter />,
     },
     {
         title: 'Instagram',
-        url: '#',
+        url: 'https://instagram.com',
         icon: <FaInstagram />,
     },
     {
         title: 'Linkedin',
-        url: '#',
+        url: 'https://linkedin.com',
         icon: <FaLinkedinIn />,
     },
     {
         title: 'Github',
-        url: '#',
+        url: 'https://github.com',
         icon: <FaGithub />,
     },
     {
         title: 'Codepen',
-        url: '#',
+        url: 'https://codepen.com',
         icon: <FaCodepen />,
     },
     {
         title: 'Email',
-        url: '#',
+        url: 'mailto:example@gmail.com',
         icon: <FaEnvelope />,
     },
     
     {
         title: 'Youtube',
-        url: '#',
+        url: 'https://youtube.com',
         icon: <FaYoutube />,
     },
     
     {
         title: 'Website',
-        url: '#',
+        url: 'https://google.com',
         icon: <FaGlobe />,
     },
     
@@ -153,7 +153,7 @@ export default class Profile extends Component {
                                         {
                                             socialLinks.map((social)=>(
                                                 <Tooltip title={social.title} arrow placement='top'>
-                                                    <IconButton aria-label={social.title} size='small' sx={{ backgroundColor: 'rgba(255, 255, 255, 0.975)', color: '#333', padding: '0.575rem', boxShadow: '2', '&:hover': {backgroundColor: '#fff', boxShadow: '5'}}}>
+                                                    <IconButton aria-label={social.title} size='small' component={Link} to={social.url} target='_blank' sx={{ backgroundColor: 'rgba(255, 255, 255, 0.975)', color: '#333', padding: '0.575rem', boxShadow: '2', '&:hover': {backgroundColor: '#fff', boxShadow: '5'}}}>
                                                         {social.icon}
                                                     </IconButton>
                                                 </Tooltip>
@@ -165,7 +165,7 @@ export default class Profile extends Component {
                                     <Stack direction='row' sx={{ flexWrap: 'wrap', marginBottom: '1rem' }}>
                                         <Button 
                                             component={Link}
-                                            to='/profile'
+                                            to='/HexTricks-frontend/profile'
                                             variant="text" 
                                             startIcon={<PersonIcon />} 
                                             sx={{ 

@@ -1,7 +1,7 @@
 import { Avatar, Box, Card, CardActions, CardContent, CardMedia, Container, Grid, Pagination, styled, Typography } from '@mui/material'
 import React, { Component } from 'react'
 import { Parallax } from 'react-parallax'
-import ImgHeaderBg from '../images/HexTricks-frontend/category-page-thumb.jpg'
+import ImgHeaderBg from '../images/category-page-thumb.jpg'
 import ArticleIcon from '@mui/icons-material/Article';
 import Sidebar from '../components/Sidebar';
 import ImgMaleAvatar from '../images/male-avatar.jpg'
