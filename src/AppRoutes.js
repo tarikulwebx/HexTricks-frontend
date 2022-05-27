@@ -19,7 +19,7 @@ export default function AppRoutes() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" exact element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/articles" element={<Posts />} />
