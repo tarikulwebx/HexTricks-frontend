@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/HexTricks-frontend/static/js/main.b31c97ac.js",
+    "static/js/787.30ff7e0a.chunk.js": "/HexTricks-frontend/static/js/787.30ff7e0a.chunk.js",
+    "static/media/about-page-thumb.jpg": "/HexTricks-frontend/static/media/about-page-thumb.2119a2f1f6ef1643c542.jpg",
+    "static/media/category-page-thumb.jpg": "/HexTricks-frontend/static/media/category-page-thumb.b7237ca9b98327151885.jpg",
+    "static/media/contact-page-thumb.jpg": "/HexTricks-frontend/static/media/contact-page-thumb.21c4fcb17c4a4aa4491d.jpg",
+    "static/media/image1.jpg": "/HexTricks-frontend/static/media/image1.61bd5440143735861591.jpg",
+    "static/media/image5.jpg": "/HexTricks-frontend/static/media/image5.7b34a42727c733ca5095.jpg",
+    "static/media/image2.jpg": "/HexTricks-frontend/static/media/image2.5dcffab101743e57a768.jpg",
+    "static/media/image3.jpg": "/HexTricks-frontend/static/media/image3.da7cb89adcfbc247974c.jpg",
+    "static/media/colored-logo.svg": "/HexTricks-frontend/static/media/colored-logo.82b03b7be16c6c7bbd435dd08193d1fe.svg",
+    "static/media/logo.svg": "/HexTricks-frontend/static/media/logo.b7b289d7d91ed0d3cce755de706949ac.svg",
+    "index.html": "/HexTricks-frontend/index.html",
+    "main.b31c97ac.js.map": "/HexTricks-frontend/static/js/main.b31c97ac.js.map",
+    "787.30ff7e0a.chunk.js.map": "/HexTricks-frontend/static/js/787.30ff7e0a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.b31c97ac.js"
+  ]
+}
