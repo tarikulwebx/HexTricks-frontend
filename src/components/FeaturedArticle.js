@@ -73,7 +73,7 @@ const ThumbWrapper = styled('div')(({theme})=> ({
 export default function FeaturedArticle() {
     return (
         <>
-            <Box component='article' sx={{ marginTop: '3rem' }}>
+            <Box component='article' sx={{ marginTop: '2.5rem' }}>
                 <Container maxWidth='xl'>
                     <Paper elevation={4} sx={{ borderRadius: '0.5rem', overflow: 'hidden' }}>
                         <Grid container spacing={0} sx={{ padding: '0' }}>
