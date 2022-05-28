@@ -8,7 +8,7 @@ export default function Home() {
 	return (
 		<>
 			<FeaturedArticle />
-			<Box component='main' sx={{ marginTop: '4rem', marginBottom: '3rem' }}>
+			<Box component='main' sx={{ marginTop: '3.5rem', marginBottom: '3rem' }}>
                 <Container maxWidth='xl'>
                     <Grid container spacing={4.25}>
 
